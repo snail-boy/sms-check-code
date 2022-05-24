@@ -1,9 +1,13 @@
 {
   "name": "vue-sms-check-code",
   "description": "一个仿原生效果的短信验证码组件，vue2.6插件，无依赖。验证失败时动画加标红颜色显示，点击手机验证码平铺填充等",
-  "keywords": ["短信验证码组件", "仿原生效果的短信验证码组件", "vue插件"],
-  "version": "0.0.3",
-  "main": "lib",
+  "keywords": [
+    "短信验证码组件",
+    "仿原生效果的短信验证码组件",
+    "vue插件"
+  ],
+  "version": "0.0.6",
+  "main": "packages/index.js",
   "author": {
     "name": "snailbody",
     "email": "wk_web@163.com",
@@ -11,47 +15,15 @@
   },
   "private": false,
   "license": "MIT",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-sms-check-code --dest lib src/plugin/index.js"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/snailBody/vue-sms-check-code"
+    "url": "https://github.com/snailbody/vue-sms-check-code"
   },
-  "homepage": "https://github.com/snailBody/vue-sms-check-code",
+  "homepage": "https://github.com/snailbody/vue-sms-check-code",
   "bugs": {
     "email": "wk_web@163.com",
-    "url": "https://github.com/snailBody/vue-sms-check-code/issues"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.10",
-    "@vue/cli-plugin-eslint": "~4.5.10",
-    "@vue/cli-service": "~4.5.10",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
+    "url": "https://github.com/snailbody/vue-sms-check-code/issues"
   },
   "browserslist": [
     "> 1%",
