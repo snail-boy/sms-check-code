@@ -13,7 +13,7 @@
 <div align='left'>
 
 
-<h1>running</h1>
+<h3>Install</h3>
 
 ```vue
 
@@ -50,7 +50,7 @@
 
 
 
-<h1>demo</h1>
+<h3>Usage</h3>
 
 ```vue
 <template>
@@ -103,9 +103,8 @@ html, body {
 
 </div>
 
-<h1>源码地址，欢迎star</h1>
+<h3>源码地址，欢迎star</h3>
 
 [github地址](git@git.zhlh6.cn:snailbody/vue-sms-check-code.git)
 
 [gitee地址](https://gitee.com/snailbody/vue-sms-check-code.git)
-
