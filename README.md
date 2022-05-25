@@ -105,6 +105,6 @@ html, body {
 
 <h3>源码地址，欢迎star</h3>
 
-[github地址](git@git.zhlh6.cn:snailbody/vue-sms-check-code.git)
+[github地址](https://github.com/snailbody/vue-sms-check-code.git)
 
 [gitee地址](https://gitee.com/snailbody/vue-sms-check-code.git)
