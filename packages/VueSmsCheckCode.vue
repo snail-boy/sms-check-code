@@ -189,7 +189,6 @@ export default {
       this.inputBoxActive = this.inputBoxActive + this.moveUnit
       this.smsCodeList.map((val, index) => {
         if (this.currentIndex === index) {
-          console.log(val, index, 'index')
           if(val) {
             val.isError = false
           }
