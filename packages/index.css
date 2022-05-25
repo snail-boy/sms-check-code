@@ -20,6 +20,7 @@
 
 .sms-check-code-wrapper .sms-code-box .sms-code-input-box {
     padding-top: 46px;
+    text-align: left;
 }
 
 .sms-check-code-wrapper .sms-code-box .sms-code-input-box .sms-code-input {
