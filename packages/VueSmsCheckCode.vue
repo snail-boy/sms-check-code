@@ -216,10 +216,6 @@ export default {
         })
         this.initAll()
       }
-    },
-    smsApiError() {
-      this.error = false
-      this.initAll()
     }
   },
 }
