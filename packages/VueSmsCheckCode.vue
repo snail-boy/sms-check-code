@@ -9,7 +9,7 @@
           <input
               ref='refInout'
               v-show='isShowInputBox'
-              type='number'
+              type='text'
               v-model='inputValue'
               class='sms-code-input'
               :style="{
@@ -152,7 +152,7 @@ export default {
     },
     onKeyDown(e) {
       let key = e.key;
-      e.returnValue = !(key === 'e' || key === 'E' || key === '+' || key === '-');
+      e.returnValue = !(key === 'e' || key === 'E' || key === '+' || key === '-' || !new RegExp(/\d/).test(key));
     },
     onKeyUp(e) {
       if (this.currentIndex < 1) return
