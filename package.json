@@ -6,7 +6,7 @@
     "仿原生效果的短信验证码组件",
     "vue插件"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "packages/index.js",
   "author": {
     "name": "snailbody",
