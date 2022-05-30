@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import VueSmsCheckCode from "../packages/VueSmsCheckCode";
+import VueSmsCheckCode from "../packages/SmsCheckCode";
 export default {
   name: 'App',
   components: {

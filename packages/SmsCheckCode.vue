@@ -50,7 +50,7 @@ let defaultMoveUnit = 17.2
 let defaultInputPL = 7
 let defaultSmsCodeItemWidth = 14
 export default {
-  name: "VueSmsCheckCode",
+  name: "SmsCheckCode",
   directives: {
     focus: {
       inserted: function (el) {

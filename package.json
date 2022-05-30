@@ -1,15 +1,15 @@
 {
-  "name": "vue-sms-check-code",
+  "name": "sms-check-code",
   "description": "一个仿原生效果的短信验证码组件，vue2.6插件，无依赖。验证失败时动画加标红颜色显示，点击手机验证码平铺填充等",
   "keywords": [
     "短信验证码组件",
     "仿原生效果的短信验证码组件",
     "vue插件"
   ],
-  "version": "1.0.3",
+  "version": "1.0.1",
   "main": "packages/index.js",
   "author": {
-    "name": "snailbody",
+    "name": "snail-boy",
     "email": "wk_web@163.com",
     "url": "https://blog.webrabbit.top"
   },

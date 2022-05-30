@@ -1,7 +1,7 @@
-import VueSmsCheckCode from './VueSmsCheckCode.vue'
+import SmsCheckCode from './SmsCheckCode.vue'
 
 const install = function(Vue) {
-  Vue.component(VueSmsCheckCode.name, VueSmsCheckCode)
+  Vue.component(SmsCheckCode.name, SmsCheckCode)
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
