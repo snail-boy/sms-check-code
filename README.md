@@ -1,10 +1,10 @@
 
 <div align='center'>
 
-# vue-sms-check-code
+# sms-check-code
 
 [![license](https://img.shields.io/badge/license-MIT-yellowgreen)](LICENSE)
-[![npm](https://img.shields.io/badge/npm-vue2.6.11-blue)](https://www.npmjs.com/package/vue-sms-check-code)
+[![npm](https://img.shields.io/badge/npm-vue2.6.11-blue)](https://www.npmjs.com/package/sms-check-code)
 
 
 [演示](https://user-images.githubusercontent.com/34472552/170011691-68b93a18-fca5-4e35-9924-ac36fb5d5972.mp4)
@@ -17,9 +17,9 @@
 
 ```vue
 
-1,npm install vue-sms-check-code --save
+1,npm install sms-check-code --save
 
-2,import VueSmsCode from 'vue-sms-check-code'
+2,import VueSmsCode from 'sms-check-code'
 
 3,vue.use(VueSmsCode)
 
@@ -27,7 +27,7 @@
 
 ```vue
 
-<vue-sms-check-code
+<sms-check-code
     title='请输入验证码' 
     :code-num='6'
     :is-error='isError'
@@ -55,7 +55,7 @@
 ```vue
 <template>
   <div id="app">
-    <vue-sms-check-code
+    <sms-check-code
         title='请输入验证码'
         :codeNum='6'
         :is-error='isError'
@@ -105,6 +105,6 @@ html, body {
 
 <h3>源码地址，欢迎star</h3>
 
-[github地址](https://github.com/snail-boy/vue-sms-check-code)
+[github地址](https://github.com/snail-boy/sms-check-code)
 
-[gitee地址](https://gitee.com/snailwebboy/vue-sms-check-code)
+[gitee地址](https://gitee.com/snailwebboy/sms-check-code)
