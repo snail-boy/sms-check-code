@@ -108,3 +108,7 @@ html, body {
 [github地址](https://github.com/snail-boy/sms-check-code)
 
 [gitee地址](https://gitee.com/snailwebboy/sms-check-code)
+
+
+# 1.0.3
+### 解决 短信发送后 ios 软键盘不关闭的bug

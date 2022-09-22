@@ -174,7 +174,11 @@ export default {
     handleClick() {
       this.$refs.refInout.focus()
     },
+    handleBlur() {
+      this.$refs.refInout.blur()
+    },
     sendFun() {
+      this.handleBlur() //  解决 短信发送后 ios 软键盘不关闭的bug
       this.$emit('finish', this.smsValue)
     }
   },

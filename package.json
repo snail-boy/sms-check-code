@@ -6,7 +6,7 @@
     "仿原生效果的短信验证码组件",
     "vue插件"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "packages/index.js",
   "author": {
     "name": "snail-boy",
@@ -18,12 +18,12 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/snail-boy/vue-sms-check-code"
+    "url": "https://github.com/snail-boy/sms-check-code"
   },
-  "homepage": "https://github.com/snail-boy/vue-sms-check-code",
+  "homepage": "https://github.com/snail-boy/sms-check-code",
   "bugs": {
     "email": "wk_web@163.com",
-    "url": "https://github.com/snail-boy/vue-sms-check-code/issues"
+    "url": "https://github.com/snail-boy/sms-check-code/issues"
   },
   "browserslist": [
     "> 1%",
