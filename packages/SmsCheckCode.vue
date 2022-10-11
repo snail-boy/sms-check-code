@@ -3,7 +3,7 @@
     <div class="sms-code-container">
       <div :class="['sms-code-title', {'error': error}]"
            :style="{'color': error ? errorColor : errorColorDefault}">
-      {{ title }}</div>
+        {{ title }}</div>
       <div class='sms-code-box'>
         <div class="sms-code-input-box" :style="{'transform': `translate(${inputBoxActive}%)`}">
           <input
@@ -99,6 +99,9 @@ export default {
     this.compareList()
     this.inputPaving()
   },
+  mounted() {
+    this.handleBlur()
+  },
   methods: {
     reDomRender() {
       this.style = {
@@ -180,6 +183,7 @@ export default {
     sendFun() {
       this.handleBlur() //  解决 短信发送后 ios 软键盘不关闭的bug
       this.$emit('finish', this.smsValue)
+      this.initAll()
     }
   },
   watch: {
